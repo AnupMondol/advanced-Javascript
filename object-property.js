@@ -11,9 +11,11 @@ const namess = students.map(function(element){
 })
 
 const names = students.map(s => s.name);
+
 const ids = students.map( i => i.id);
 
 const high = students.filter(s => s.id > 40)
+
 const high1 = students.find(s => s.id > 40)
 
  console.log(high1);
